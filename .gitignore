@@ -1,0 +1,13 @@
+# Excluir directorios generados por Node.js
+node_modules/
+dist/
+build/
+
+# Excluir archivos de configuración locales
+.env
+config/*.json
+
+# Excluir archivos de registro o datos temporales
+logs/
+*.log
+*.tmp
